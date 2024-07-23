@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/node": "^16.18.103",
@@ -49,8 +48,10 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@testing-library/jest-dom": "^6.4.7",
     "@testing-library/react": "^16.0.0",
     "@types/jest": "^29.5.12",
+    "@types/testing-library__jest-dom": "^6.0.0",
     "cypress": "^13.13.1",
     "msw": "^2.3.2",
     "tailwindcss": "^3.4.6"
